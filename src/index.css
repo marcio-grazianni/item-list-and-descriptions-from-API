@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .minHeight {
+    height: calc(100vh - 60px);
+  }
+  * {
+    animation-duration: 300;
+    box-sizing: border-box;
+  }
+}
